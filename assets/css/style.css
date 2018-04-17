@@ -85,6 +85,8 @@ div {
   color: white;
   height: 300px;
   text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 .story {
@@ -96,7 +98,7 @@ div {
 .story-main {
   background: url('../img/img-story-main.png') top center no-repeat;
   background-size: cover;
-  text-align: left;
+  text-align: center;
 }
 
 .story-flex {
