@@ -1,6 +1,9 @@
 /*
 PROJECT MY TIMES
 */
+body {
+  max-width: 1300px;
+}
 
 header {
   font-family: Verdana;
@@ -38,10 +41,11 @@ nav span {
 
 main {
   display: flex;
+  justify-content: space-around;
 }
 
 div {
-  border: thin solid black;
+  /* border: thin solid black; */
 }
 
 .column {
@@ -59,6 +63,8 @@ div {
 
 .column.small {
   width: 240px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-image {
@@ -82,6 +88,25 @@ div {
   text-align: left;
 }
 
+.story-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.story-wrap h2 {
+  min-height: 100px;
+}
+
+.story-wrap p {
+  min-height: 150px;
+}
+
 .story-main span {
   font-size: 40px;
 }
@@ -96,4 +121,23 @@ div {
 
 .cats {
   background: url('../img/img-story-1.png') top left no-repeat;
+}
+
+.column.small h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.column.small ul {
+  padding: 0;
+}
+.column.small li {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  list-style: none;
+  padding: 10px 20px;
+  border-bottom: thin solid black;
 }
