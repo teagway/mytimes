@@ -1,0 +1,99 @@
+/*
+PROJECT MY TIMES
+*/
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: thin solid black;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: inline-flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.logo img {
+  padding: 0 10px 0 0;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+nav {
+  display: inline-flex;
+}
+
+nav span {
+  display: inline-block;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+}
+
+div {
+  border: thin solid black;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.content-image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+  text-align: center;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.story-main {
+  background: url('../img/img-story-main.png') top center no-repeat;
+  background-size: cover;
+  text-align: left;
+}
+
+.story-main span {
+  font-size: 40px;
+}
+
+.earth {
+  background: url('../img/img-story-2.png') top left repeat;
+}
+
+.memory {
+  background: url('../img/img-story-3.png') top left repeat;
+}
+
+.cats {
+  background: url('../img/img-story-1.png') top left no-repeat;
+}
