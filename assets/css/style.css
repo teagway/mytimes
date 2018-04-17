@@ -2,15 +2,21 @@
 PROJECT MY TIMES
 */
 body {
-  max-width: 1300px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
   border-bottom: thin solid black;
   padding: 10px 20px;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 70px;
   display: flex;
   align-items: center;
 }
@@ -31,6 +37,7 @@ header {
 
 nav {
   display: inline-flex;
+  padding-right: 40px;
 }
 
 nav span {
@@ -40,6 +47,10 @@ nav span {
 }
 
 main {
+  max-width: 1300px;
+  position: relative;
+  margin: 0 auto 80px;
+  padding-top: 115px;
   display: flex;
   justify-content: space-around;
 }
@@ -140,4 +151,29 @@ div {
   list-style: none;
   padding: 10px 20px;
   border-bottom: thin solid black;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  margin: 100px auto 0;
+  background-color: MediumAquamarine;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  padding: 0 10px 10px;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
 }
